@@ -1,4 +1,5 @@
 {
+  "baseUrl": "https://kirti-bff.onrender.com",
   "pagesConfig": [
     {
       "page": "splashScreenPage",
@@ -13,11 +14,18 @@
         "bgImage": "https://i.postimg.cc/C17qmLfF/landing-bg.webp",
         "title": "Welcome To Kirti India",
         "subtitle": "Excercise analysis with AI",
-        "cta": {
-          "title": "Register Athletes",
-          "bgColor": "#F97316",
-          "textColor": "#FFFFFF"
-        }
+        "cta": [
+          {
+            "title": "Accessor Login",
+            "bgColor": "#F97316",
+            "textColor": "#FFFFFF"
+          },
+          {
+            "title": "Register as Athlete",
+            "bgColor": "#FFEDD5",
+            "textColor": "#F97316"
+          }
+        ]
       }
     },
     {
@@ -25,11 +33,13 @@
       "data": {
         "isStatusBarTextDark": true,
         "topBarTitle": "Register Athlete",
-        "cta": {
-          "title": "Save & Continue",
-          "bgColor": "#F97316",
-          "textColor": "#FFFFFF"
-        }
+        "cta": [
+          {
+            "title": "Save & Continue",
+            "bgColor": "#F97316",
+            "textColor": "#FFFFFF"
+          }
+        ]
       }
     },
     {
@@ -37,11 +47,13 @@
       "data": {
         "isStatusBarTextDark": true,
         "topBarTitle": "Login Assessor",
-        "cta": {
-          "title": "Login",
-          "bgColor": "#F97316",
-          "textColor": "#FFFFFF"
-        }
+        "cta": [
+          {
+            "title": "Login",
+            "bgColor": "#F97316",
+            "textColor": "#FFFFFF"
+          }
+        ]
       }
     },
     {
@@ -53,11 +65,13 @@
         "title": "What is your Height?",
         "subtitle": "To calculate height, the system requires you to capture a photo.",
         "bottomLine": "Our system processes the data and automatically determines your height",
-        "cta": {
-          "title": "Capture Athlete's Photo",
-          "bgColor": "#F97316",
-          "textColor": "#FFFFFF"
-        }
+        "cta": [
+          {
+            "title": "Capture Athlete's Photo",
+            "bgColor": "#F97316",
+            "textColor": "#FFFFFF"
+          }
+        ]
       }
     },
     {
