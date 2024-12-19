@@ -1,5 +1,4 @@
 {
-  "baseUrl": "https://kirti-bff.onrender.com",
   "pagesConfig": [
     {
       "page": "splashScreenPage",
@@ -19,13 +18,19 @@
             "title": "Accessor Login",
             "bgColor": "#F97316",
             "textColor": "#FFFFFF",
-            "route": "LoginAssessorScreenRoute"
+            "route": {
+              "name": "LoginAssessorScreenRoute",
+              "type": "navigation"
+            }
           },
           {
             "title": "Register as Athlete",
             "bgColor": "#FFEDD5",
             "textColor": "#F97316",
-            "route": "RegisterAthleteScreenRoute"
+            "route": {
+              "name": "RegisterAthleteScreenRoute",
+              "type": "navigation"
+            }
           }
         ]
       }
@@ -35,11 +40,29 @@
       "data": {
         "isStatusBarTextDark": true,
         "topBarTitle": "Register Athlete",
+        "title": "Register to KIRTI",
+        "subtitle": "Create your athlete account",
+        "bottomSheetData": {
+          "successful": {
+            "title": "Successful",
+            "subTitle": "You’re Registered as Athlete Completed Successfully!",
+            "lottie": "https://lottie.host/3421ccf6-c92c-44de-9ab6-13aef032a8a0/LFkoOxmLCV.lottie"
+          },
+          "failure": {
+            "title": "Failed",
+            "subTitle": "Registration Failed! Please try again later.",
+            "lottie": "https://lottie.host/b9e9015c-1225-4b15-96d5-99c34f15b615/DRWdcHnqJy.lottie"
+          }
+        },
         "cta": [
           {
-            "title": "Save & Continue",
+            "title": "Submit",
             "bgColor": "#F97316",
-            "textColor": "#FFFFFF"
+            "textColor": "#FFFFFF",
+            "route": {
+              "name": "RegisterAthlete",
+              "type": "action"
+            }
           }
         ]
       }
@@ -48,12 +71,31 @@
       "page": "loginAssessorPage",
       "data": {
         "isStatusBarTextDark": true,
-        "topBarTitle": "Login Assessor",
+        "topBarTitle": "Assessor Login",
+        "title": "Sign In to KIRTI",
+        "subtitle": "Login to your accessor account",
+        "textFields": [
+          {
+            "label": "Username",
+            "icon": "https://raw.githubusercontent.com/anirudh3997/SAI_CDN/main/uploads/profile.svg",
+            "keyboardType": "default"
+          },
+          {
+            "label": "Password",
+            "icon": "https://raw.githubusercontent.com/anirudh3997/SAI_CDN/main/uploads/password.svg",
+            "keyboardType": "password",
+            "isSecureText": true
+          }
+        ],
         "cta": [
           {
             "title": "Login",
             "bgColor": "#F97316",
-            "textColor": "#FFFFFF"
+            "textColor": "#FFFFFF",
+            "route": {
+              "name": "LoginAssessor",
+              "type": "action"
+            }
           }
         ]
       }
@@ -71,7 +113,15 @@
           {
             "title": "Capture Athlete's Photo",
             "bgColor": "#F97316",
-            "textColor": "#FFFFFF"
+            "textColor": "#FFFFFF",
+            "route": {
+              "name": "CameraScreenRoute",
+              "type": "navigation",
+              "params": {
+                "exercise": "Height",
+                "cameraMode": "photo"
+              }
+            }
           }
         ]
       }
