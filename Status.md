@@ -75,4 +75,38 @@ Response
 }
 ```
 
-## GET /setHeight
+## GET /getStudents
+
+Response
+
+```json
+{
+  "status": "success",
+  "data": {
+    "athletesList": [
+        {
+            "uid": 12345
+            "name":"Anirudh",
+            "gender": "Male",
+            "dob": "03/09/1997",
+            "height": 160,
+            "weight": 87
+        },
+        {
+            "uid": 12346
+            "name":"Animesh",
+            "gender": "Male",
+            "dob": "02/12/1997",
+            "height": 159,
+            "weight": 120
+        },
+        {
+            "uid": 12347
+            "name":"Vardhan",
+            "gender": "Male",
+            "dob": "02/12/1997"
+        }
+    ]
+  }
+}
+```
