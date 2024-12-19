@@ -1,0 +1,109 @@
+{
+  "pagesConfig": [
+    {
+      "page": "splashScreenPage",
+      "data": {
+        "isStatusBarTextDark": true
+      }
+    },
+    {
+      "page": "landingPage",
+      "data": {
+        "isStatusBarTextDark": false,
+        "bgImage": "https://i.postimg.cc/C17qmLfF/landing-bg.webp",
+        "title": "Welcome To Kirti India",
+        "subtitle": "Excercise analysis with AI",
+        "cta": {
+          "title": "Register Athletes",
+          "bgColor": "#F97316",
+          "textColor": "#FFFFFF"
+        }
+      }
+    },
+    {
+      "page": "registerAthletePage",
+      "data": {
+        "isStatusBarTextDark": true,
+        "topBarTitle": "Register Athlete",
+        "cta": {
+          "title": "Save & Continue",
+          "bgColor": "#F97316",
+          "textColor": "#FFFFFF"
+        }
+      }
+    },
+    {
+      "page": "loginAssessorPage",
+      "data": {
+        "isStatusBarTextDark": true,
+        "topBarTitle": "Login Assessor",
+        "cta": {
+          "title": "Login",
+          "bgColor": "#F97316",
+          "textColor": "#FFFFFF"
+        }
+      }
+    },
+    {
+      "page": "registerHeightPage",
+      "data": {
+        "isStatusBarTextDark": true,
+        "topBarTitle": "Register Athlete",
+        "bgImage": "https://i.postimg.cc/kGZDpVMd/landing-bg.webp",
+        "title": "What is your Height?",
+        "subtitle": "To calculate height, the system requires you to capture a photo.",
+        "bottomLine": "Our system processes the data and automatically determines your height",
+        "cta": {
+          "title": "Capture Athlete's Photo",
+          "bgColor": "#F97316",
+          "textColor": "#FFFFFF"
+        }
+      }
+    },
+    {
+      "page": "cameraPage",
+      "data": {
+        "isStatusBarTextDark": false
+      }
+    },
+    {
+      "page": "cameraPreviewPage",
+      "data": {
+        "isStatusBarTextDark": false
+      }
+    },
+    {
+      "page": "selectExercisePage",
+      "data": {
+        "isStatusBarTextDark": true
+      }
+    }
+  ],
+  "exerciseList": [
+    {
+      "name": "Broad Jump",
+      "imageUrl": "https://i.postimg.cc/fJszGm61/Broad-jump.png",
+      "bottomSheetImageUrl": "https://i.postimg.cc/tYCS4dmL/broad-jump.png"
+    },
+    {
+      "name": "Squats",
+      "imageUrl": "https://i.postimg.cc/dhtq1vQB/Squats.png",
+      "bottomSheetImageUrl": "https://i.postimg.cc/0zzVpkvn/squats.png"
+    },
+    {
+      "name": "Pull Ups",
+      "imageUrl": "https://i.postimg.cc/3dZ8YWhN/Pull-ups.png",
+      "bottomSheetImageUrl": "https://i.postimg.cc/rD7QjBFk/Pull-ups.png"
+    },
+    {
+      "name": "Sit Ups",
+      "imageUrl": "https://i.postimg.cc/JysMNqkH/Situp.png",
+      "bottomSheetImageUrl": "https://i.postimg.cc/cr9DgKp6/Situps.png"
+    },
+    {
+      "name": "Vertical Jump",
+      "imageUrl": "https://i.postimg.cc/dhHJZXLK/vertical-jump.png",
+      "bottomSheetImageUrl": "https://i.postimg.cc/hJxM52f7/vertical-jump.png"
+    }
+  ]
+}
