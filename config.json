@@ -18,12 +18,14 @@
           {
             "title": "Accessor Login",
             "bgColor": "#F97316",
-            "textColor": "#FFFFFF"
+            "textColor": "#FFFFFF",
+            "route": "LoginAssessorScreenRoute"
           },
           {
             "title": "Register as Athlete",
             "bgColor": "#FFEDD5",
-            "textColor": "#F97316"
+            "textColor": "#F97316",
+            "route": "RegisterAthleteScreenRoute"
           }
         ]
       }
