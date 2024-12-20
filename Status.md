@@ -21,6 +21,29 @@ Response
 }
 ```
 
+## POST /login
+
+Request
+
+```json
+{
+  "username": "anirudh",
+  "password": "password"
+}
+```
+
+Response
+
+```json
+{
+  "status": "success",
+  "data": {
+    "uid": 12345,
+    "role": "assessor"
+  }
+}
+```
+
 ## POST /height
 
 Request
