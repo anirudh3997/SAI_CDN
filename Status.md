@@ -39,7 +39,8 @@ Response
   "status": "success",
   "data": {
     "uid": 12345,
-    "role": "assessor"
+    "role": "assessor",
+    "auth_token": "fdjafuwehifihcvhvyguweakfhdgcy"
   }
 }
 ```
